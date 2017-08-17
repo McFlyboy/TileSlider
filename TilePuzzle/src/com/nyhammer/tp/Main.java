@@ -41,7 +41,7 @@ public class Main{
 	private int steps;
 	private void start(){
 		Framework.init();
-		GameWindow.create(300, 300, "Endless cicle");
+		GameWindow.create(300, 300, "TileSlider");
 		Keyboard.create();
 		Render.setClearColor(0.75f, 0.75f, 0.75f);
 		player = new Player();
